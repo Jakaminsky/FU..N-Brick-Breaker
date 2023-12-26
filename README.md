@@ -7,3 +7,6 @@ TO DO:
 - Start screen
 - Lose screen
 - Pause screen?
+
+Play Screen:
+![image](https://github.com/Jakaminsky/FU..N-Brick-Breaker/assets/144266577/aa2f3f3f-2696-462a-8b07-9517ff771264)
