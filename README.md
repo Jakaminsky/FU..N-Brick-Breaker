@@ -10,3 +10,7 @@ TO DO:
 
 Play Screen:
 ![image](https://github.com/Jakaminsky/FU..N-Brick-Breaker/assets/144266577/aa2f3f3f-2696-462a-8b07-9517ff771264)
+
+Gameplay:
+https://github.com/Jakaminsky/FU..N-Brick-Breaker/assets/144266577/b45be7b9-794c-4640-a586-8ba1f1af5b73
+
