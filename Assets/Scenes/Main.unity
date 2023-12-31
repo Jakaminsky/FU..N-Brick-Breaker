@@ -2494,7 +2494,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.4
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -6124,6 +6124,7 @@ GameObject:
   - component: {fileID: 1056548437}
   - component: {fileID: 1056548436}
   - component: {fileID: 1056548440}
+  - component: {fileID: 1056548441}
   m_Layer: 5
   m_Name: Lose
   m_TagString: Untagged
@@ -6234,6 +6235,18 @@ MonoBehaviour:
   paused: {fileID: 1219405678}
   timer: {fileID: 24822455}
   ball: {fileID: 169425972}
+--- !u!114 &1056548441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056548435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83ab67405d04b7448ac3561b51e7536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1096280355
 PrefabInstance:
   m_ObjectHideFlags: 0

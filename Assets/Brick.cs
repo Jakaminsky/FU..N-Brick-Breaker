@@ -20,10 +20,16 @@ public class Brick : MonoBehaviour
         health.text = curHealth.ToString();
         if (curHealth == 0)
         {
-            Destroy(gameObject);
-            Destroy(health.gameObject);
-            Instantiate(part, gameObject.transform.position, Quaternion.identity);
+            noHealth();
         }
+    }
+
+    public void noHealth()
+    {
+        Destroy(gameObject);
+        Destroy(health.gameObject);
+        Instantiate(part, gameObject.transform.position, Quaternion.identity);
+        Win.win++;
     }
 
     public void OnCollisionEnter(Collision collision)
